@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anik Poddar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2585d345b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- <link rel="stylesheet" href="script.js"> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Untitled design.png" alt="logo"> <!--logo-->
+                <ul id="sidemenu1">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="main-text">
+                <p>Frontend Developer, Graphics Designer</p>
+                <h1 id="introtext">Hi, I'm <span id="name">Anik</span><br><span id="nextline">from <span class="text"></span></span>
+                </h1>
+            </div>
+            <div class="cv">
+                <a href="images/Blue Light Blue Color Blocks Physician CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------about------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/anik.jpg" class="b-w">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title2">About Me</h1>
+                    <p id="abmepara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto blanditiis veniam
+                        nostrum officiis. Repellat, obcaecati hic sint labore eligendi dignissimos dicta nesciunt
+                        ducimus maiores saepe facere odit rem consequuntur facilis quia recusandae, voluptates inventore
+                        totam corrupti minima quibusdam magnam ex, sit porro? Perferendis modi delectus nesciunt tempore
+                        possimus vero expedita eveniet, aliquam odio porro illo beatae nostrum ab alias iure cumque,
+                        voluptate similique eius perspiciatis quis quas a velit quae inventore. Molestias expedita, quo
+                        in labore culpa a animi cum inventore dolorum eum atque?</p>
+                    <div class="tab-titles">
+                        <div class="tab-links activelink" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Developing Websites of Any Designs</li>
+                            <li><span>UI/UX</span><br>Designing Websites of Your Preferences</li>
+                            <li><span>Full Stack Developer</span><br>Developing a Website with Complete Backend and
+                                Frontend</li>
+                        </ul>
+                    </div>
+                    <!-- -------------experience--------------- -->
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Learning Web Development</span><br>2022-23</li>
+                            <li><span>Building Projects</span><br>Creating Interactive Website as my Own Projects</li>
+                            <!-- <li><span>Full Stack Developer</span><br>Developing a Website with Complete Backend and Frontend</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2021</span><br>WBJEE 7200 Rank</li>
+                            <li><span>2021</span><br>ISC Passout from St. Xavier's Institution, Panihati, Kolkata-700114
+                            </li>
+                            <li><span>2021-25</span><br>Studying Bachelors of Technology in B.P. Poddar Institute of
+                                Management and Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------services---------- -->
+
+        <div id="services">
+            <div class="container">
+                <div class="sub-title2">My Services</div>
+                <div class="servicelist">
+                    <div>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique repellendus beatae
+                            explicabo corporis? Magnam, recusandae reiciendis ab corrupti qui placeat! Non distinctio
+                            soluta dolore.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <h2>Website Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique repellendus beatae
+                            explicabo corporis? Magnam, recusandae reiciendis ab corrupti qui placeat! Non distinctio
+                            soluta dolore.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique repellendus beatae
+                            explicabo corporis? Magnam, recusandae reiciendis ab corrupti qui placeat! Non distinctio
+                            soluta dolore.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------------portfolio------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <div class="sub-title3">
+                    My Works
+                </div>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/controller website.png" id="controller">
+                        <div class="layer">
+                            <h3>Controller Buying Page</h3>
+                            <p>This is the page for choosing your controller from a playstation website and buy it. We
+                                will be hosting this site</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title3">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anikpoddar451@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9874289672</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/anik.poddar.967" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_a_ni__k_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anik-poddar-72b832284/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn3">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright ©Anik . Made by Anik Poddar
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content")
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("activelink");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        var typed = new Typed(".text", {
+            strings: ["Kolkata, India"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu1");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
